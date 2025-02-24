@@ -18,10 +18,29 @@ body {
     padding: 20px 20px 0 20px;
 }
 
-.card img {
+.header img {
     border-radius: 10px;
-    max-width: 100%;
-    margin-bottom: 20px;
+    width: 100%;
+}
+
+.card button {
+    margin-top: 20px;
+    background-color: hsl(47, 88%, 63%);
+    padding: 7px 12px;
+    border-radius: 4px;
+    border: none;
+}
+
+.card h2:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+
+}
+
+.card p {
+    font-size: 16px;
+
 }
 
 .attribution {
